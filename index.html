@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blinkit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- ==================== HEADER SECTION ==================== -->
+  <header class="blinkit-header">
+    <!-- Brand Logo -->
+    <a href="#" class="header-logo-wrapper" aria-label="Blinkit Home">
+      <div class="brand-logo">
+        <span class="blink">blink</span><span class="it">it</span>
+      </div>
+    </a>
+
+    <!-- Delivery Info -->
+    <div class="header-location">
+      <div class="delivery-title">Delivery in 16 minutes</div>
+      <div class="delivery-address-row">
+        <span class="delivery-address">Balanagar, Hyderabad, Telangana</span>
+        <svg class="caret-icon" viewBox="0 0 12 12" aria-hidden="true">
+          <path d="M2.2 4.2L6 8.2L9.8 4.2H2.2Z" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Search Input -->
+    <div class="header-search">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <line x1="16.5" y1="16.5" x2="21" y2="21" stroke-linecap="round" />
+      </svg>
+      <input
+        type="text"
+        class="search-input"
+        placeholder='Search "milk"'
+        aria-label="Search products"
+      />
+    </div>
+
+    <!-- Login & Cart Actions -->
+    <div class="header-actions">
+      <button type="button" class="login-btn">Login</button>
+      <button type="button" class="cart-btn">
+        <svg class="cart-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M3 3h2l2.4 10.2a2 2 0 0 0 2 1.5h7.9a2 2 0 0 0 1.9-1.4L21 7H6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <circle cx="9.5" cy="19.5" r="1.5" fill="#ffffff" stroke="none" />
+          <circle cx="17.5" cy="19.5" r="1.5" fill="#ffffff" stroke="none" />
+        </svg>
+        <span>My Cart</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT SECTION ==================== -->
+  <main class="main-container">
+    <!-- Hero Banner Article -->
+    <article class="hero-banner">
+      <a href="#" class="banner-link" aria-label="Stock up on daily essentials">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=2700/layout-engine/2026-01/Frame-1437256605-2-2.jpg"
+          alt="Stock up on daily essentials - Shop Now"
+          class="hero-banner-img"
+        />
+      </a>
+    </article>
+
+    <!-- 3 Promo Cards Section -->
+    <section class="promo-cards-section" aria-label="Featured Categories">
+      <a href="#" class="promo-card" aria-label="Pharmacy at your doorstep">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg"
+          alt="Pharmacy at your doorstep - Order Now"
+          class="promo-card-img"
+        />
+      </a>
+
+      <a href="#" class="promo-card" aria-label="Pet care supplies at your door">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2026-01/pet_crystal_WEB-1.png"
+          alt="Pet care supplies at your door - Order Now"
+          class="promo-card-img"
+        />
+      </a>
+
+      <a href="#" class="promo-card" aria-label="No time for a diaper run?">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2026-01/baby_crystal_WEB-1.png"
+          alt="No time for a diaper run? Get baby care essentials - Order Now"
+          class="promo-card-img"
+        />
+      </a>
+    </section>
+
+    <!-- 20-Item Category Grid Section -->
+    <section class="category-grid-section" aria-label="Shop by Category">
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png"
+          alt="Paan Corner"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-2_10.png"
+          alt="Dairy, Bread & Eggs"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-3_9.png"
+          alt="Fruits & Vegetables"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-4_9.png"
+          alt="Cold Drinks & Juices"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-5_4.png"
+          alt="Snacks & Munchies"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-6_5.png"
+          alt="Breakfast & Instant Food"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card category-card--custom">
+        <div class="category-thumb-box">
+          <img
+            src="https://images.unsplash.com/photo-1599999182263-ce6c07e98764?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            alt="Sweet Tooth"
+            class="category-thumb-img"
+          />
+        </div>
+        <span class="category-label">Sweet Tooth</span>
+      </a>
+
+      <a href="#" class="category-card category-card--custom">
+        <div class="category-thumb-box">
+          <img
+            src="https://images.unsplash.com/photo-1560910615-9eaa2e704e63?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            alt="Bakery & Biscuits"
+            class="category-thumb-img"
+          />
+        </div>
+        <span class="category-label">Bakery &amp; Biscuits</span>
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2025-11/Slice-7-1_0.png"
+          alt="Tea, Coffee & Milk Drinks"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-10.png"
+          alt="Atta, Rice & Dal"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-11.png"
+          alt="Masala, Oil & More"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-12.png"
+          alt="Sauces & Spreads"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-13.png"
+          alt="Chicken, Meat & Fish"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-14.png"
+          alt="Organic & Healthy Living"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-15.png"
+          alt="Baby Care"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-16.png"
+          alt="Pharma & Wellness"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-17.png"
+          alt="Cleaning Essentials"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-18.png"
+          alt="Home & Office"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-19.png"
+          alt="Personal Care"
+          class="category-card-img"
+        />
+      </a>
+
+      <a href="#" class="category-card">
+        <img
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-20.png"
+          alt="Pet Care"
+          class="category-card-img"
+        />
+      </a>
+    </section>
+
+    <!-- ==================== SECTION 1: Dairy, Bread & Eggs ==================== -->
+    <section class="product-section" aria-label="Dairy, Bread & Eggs">
+      <div class="section-header">
+        <h2 class="section-title">Dairy, Bread &amp; Eggs</h2>
+        <a href="#" class="see-all-link">see all</a>
+      </div>
+
+      <div class="carousel-wrapper">
+        <div class="product-row">
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/62f53af6-6b73-4c65-9df1-40021dc711a4.png?bg_token=color.background.quaternary"
+                alt="Heritage Daily Health Toned Milk"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Heritage Daily Health Toned Milk</h3>
+            <p class="product-weight">500 ml</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹33</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/95fe8aaf-dd50-4b82-a38e-06d9818da711.png?bg_token=color.background.quaternary"
+                alt="Heritage Total Pouch Curd"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Heritage Total Pouch Curd</h3>
+            <p class="product-weight">500 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹50</span>
+                <span class="mrp-price">₹52</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/9e524796-126f-4427-8005-b0fee5fe4029.png"
+                alt="Arokya Toned Milk"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Arokya Toned Milk</h3>
+            <p class="product-weight">500 ml</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹32</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/51d49293-818e-4b83-a41e-cd8bcc8911e1.png"
+                alt="Amul Pouch Curd"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Amul Pouch Curd</h3>
+            <p class="product-weight">700 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹50</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/5734b087-3ad9-485f-bbe2-52079cd9e35d.png?bg_token=color.background.quaternary"
+                alt="Amul Taaza Toned Milk"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Amul Taaza Toned Milk</h3>
+            <p class="product-weight">500 ml</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹31</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/4881cd31-5320-4b3f-b917-7c5f0923362e.png?bg_token=color.background.quaternary"
+                alt="Heritage Full Cream Milk"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Heritage Full Cream Milk</h3>
+            <p class="product-weight">500 ml</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹45</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/628c97e0-5ed4-425d-a667-1d3bfa6f0bde.png?bg_token=color.background.quaternary"
+                alt="Amul Gold Full Cream Milk"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Amul Gold Full Cream Milk</h3>
+            <p class="product-weight">500 ml</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹39</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+        </div>
+
+        <button type="button" class="carousel-next-btn" aria-label="Next products">
+          <svg viewBox="0 0 24 24" class="next-arrow-icon" aria-hidden="true">
+            <path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 2: Rolling paper & tobacco ==================== -->
+    <section class="product-section" aria-label="Rolling paper and tobacco">
+      <div class="section-header">
+        <h2 class="section-title">Rolling paper &amp; tobacco</h2>
+        <a href="#" class="see-all-link">see all</a>
+      </div>
+
+      <div class="carousel-wrapper">
+        <div class="product-row">
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/153ebe78-f289-42bc-aacb-db8e45e5b906.png?bg_token=color.background.quaternary"
+                alt="Ultimate Rolling Paper with Filter Tips & Crushing Tray (King Size, Unbleached) - Mozo"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Ultimate Rolling Paper with Filter Tips &amp; Crushing Tray (Unbleached)</h3>
+            <p class="product-weight">32 pcs</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹90</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/da/cms-assets/cms/product/9bb452f6-7656-4d37-883b-206c4427ee2d.jpg"
+                alt="Booklet of 32 Brown Leaves and Tips Rolling Paper - Original Gangster"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Booklet of 32 Brown Leaves and Tips Rolling Paper</h3>
+            <p class="product-weight">1 pc</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹90</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/8d385b40-e78b-434a-962d-50ba667891bf.png?bg_token=color.background.quaternary"
+                alt="Thins Pre-Rolled Rolling Paper - LIT"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Thins Pre-Rolled Rolling Paper - LIT</h3>
+            <p class="product-weight">1 pack</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹25</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/2a6eb6af-8143-4195-a788-c350255a8e1e.png?bg_token=color.background.quaternary"
+                alt="Ultimate Rolling Paper with Filter Tips & Crushing Tray (King Size, Bleached) - Mozo"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Ultimate Rolling Paper with Filter Tips &amp; Crushing Tray (Bleached)</h3>
+            <p class="product-weight">32 pcs</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹80</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/70514a35-42d4-4211-a23b-5ba14cdf4a7a.png?bg_token=color.background.quaternary"
+                alt="Perfect Rolled Cones (Natural) - Bongchie"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Perfect Rolled Cones (Natural) - Bongchie</h3>
+            <p class="product-weight">3 pcs</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹45</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/4b1a2707-8fe8-4c5d-99c9-753c41372656.png?bg_token=color.background.quaternary"
+                alt="Perfect Ultra Thin Pre Rolled Cones - Bongchie"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Perfect Ultra Thin Pre Rolled Cones - Bongchie</h3>
+            <p class="product-weight">6 pcs</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹90</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/500d636d-e59e-4835-a0e5-3d8e7ad26d3b.png?bg_token=color.background.quaternary"
+                alt="Brown Ripper Rolling Paper 32 Leaves + 32 Roaches - Stash Pro"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Brown Ripper Rolling Paper 32 Leaves + 32 Roaches - Stash Pro</h3>
+            <p class="product-weight">32 pcs</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹120</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+        </div>
+
+        <button type="button" class="carousel-next-btn" aria-label="Next products">
+          <svg viewBox="0 0 24 24" class="next-arrow-icon" aria-hidden="true">
+            <path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 3: Snacks & Munchies ==================== -->
+    <section class="product-section" aria-label="Snacks & Munchies">
+      <div class="section-header">
+        <h2 class="section-title">Snacks &amp; Munchies</h2>
+        <a href="#" class="see-all-link">see all</a>
+      </div>
+
+      <div class="carousel-wrapper">
+        <div class="product-row">
+          <article class="product-card">
+            <div class="offer-badge">20%<br />OFF</div>
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/5a360069-1d31-460d-b852-f7600f2dd5c3.png?bg_token=color.background.quaternary"
+                alt="Granamma Madras Mixture Namkeen"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Granamma Madras Mixture Namkeen</h3>
+            <p class="product-weight">120 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹72</span>
+                <span class="mrp-price">₹90</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="offer-badge">55%<br />OFF</div>
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/c4601214-8f27-45f3-b088-bf451679a620.png"
+                alt="Moi Soi White Rice Paper (22cm)"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Moi Soi White Rice Paper (22cm)</h3>
+            <p class="product-weight">100 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹84</span>
+                <span class="mrp-price">₹190</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="offer-badge">35%<br />OFF</div>
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/rc-upload-1776398906000-238.png?bg_token=color.background.quaternary"
+                alt="Red Rock Deli Kettle Chips (Basil Thai)"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Red Rock Deli Kettle Chips (Basil Thai)</h3>
+            <p class="product-weight">58 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹39</span>
+                <span class="mrp-price">₹60</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/rc-upload-1778043464470-121.png"
+                alt="Protein Chef Crunchy Coated Peanut Namkeen (Indian Masala)"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Protein Chef Crunchy Coated Peanut Namkeen</h3>
+            <p class="product-weight">50 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹69</span>
+                <span class="mrp-price">₹70</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="offer-badge">35%<br />OFF</div>
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=540/da/cms-assets/cms/product/rc-upload-1776829632782-897.png"
+                alt="Red Rock Deli Baked Chips (Risotto) 40% Less Fat"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Red Rock Deli Baked Chips (Risotto) 40% Less Fat</h3>
+            <p class="product-weight">53 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹39</span>
+                <span class="mrp-price">₹60</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/rc-upload-1776240040304-421.png"
+                alt="Kettle Studio Sharp Jalapenos & Cream Cheese Potato Chips"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Kettle Studio Sharp Jalapenos &amp; Cream Cheese</h3>
+            <p class="product-weight">60 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹47</span>
+                <span class="mrp-price">₹49</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="offer-badge">35%<br />OFF</div>
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=540/da/cms-assets/cms/product/rc-upload-1776829632782-894.png"
+                alt="Red Rock Deli Baked Chips (Greek Salad) 40% Less Fat"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Red Rock Deli Baked Chips (Greek Salad)</h3>
+            <p class="product-weight">53 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹39</span>
+                <span class="mrp-price">₹60</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+        </div>
+
+        <button type="button" class="carousel-next-btn" aria-label="Next products">
+          <svg viewBox="0 0 24 24" class="next-arrow-icon" aria-hidden="true">
+            <path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 4: Mouth fresheners ==================== -->
+    <section class="product-section" aria-label="Mouth fresheners">
+      <div class="section-header">
+        <h2 class="section-title">Mouth fresheners</h2>
+        <a href="#" class="see-all-link">see all</a>
+      </div>
+
+      <div class="carousel-wrapper">
+        <div class="product-row">
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/04ce1bc9-3a86-49e2-bc12-8403ce06e89d.png?bg_token=color.background.quaternary"
+                alt="Rajnigandha Silver Pearl Elaichi Mouth Freshener"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Rajnigandha Silver Pearl Elaichi Mouth Freshener</h3>
+            <p class="product-weight">4 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹75</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/rc-upload-1786189754893-349.png?bg_token=color.background.quaternary"
+                alt="Spraymintt Icymint Mouth Spray"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Spraymintt Icymint Mouth Spray</h3>
+            <p class="product-weight">15 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹95</span>
+                <span class="mrp-price">₹99</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="offer-badge">10%<br />OFF</div>
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/da/cms-assets/cms/product/53ca4f43-b66c-4e1d-b105-9db9a4491478.jpg"
+                alt="Chandan Saunf Elaichi Mouth Freshener"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Chandan Saunf Elaichi Mouth Freshener</h3>
+            <p class="product-weight">100 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹45</span>
+                <span class="mrp-price">₹50</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/da/cms-assets/cms/product/bc236658-ac92-415e-b392-0be239802b32.jpg"
+                alt="Chandan Mint Saunf Mouth Freshener"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Chandan Mint Saunf Mouth Freshener</h3>
+            <p class="product-weight">100 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹50</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="offer-badge">39%<br />OFF</div>
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/da/cms-assets/cms/product/42adad2f-205f-4af1-b787-b8f3484bdb4e.jpg"
+                alt="Chandan Star 5 in 1 Mouth Freshener"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Chandan Star 5 in 1 Mouth Freshener</h3>
+            <p class="product-weight">200 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹169</span>
+                <span class="mrp-price">₹280</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="offer-badge">28%<br />OFF</div>
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/ccf39d68-7a87-4fa6-9873-665904d3ce28.png?bg_token=color.background.quaternary"
+                alt="Pass Pass Sweet Magic Mix Mouth Freshener"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Pass Pass Sweet Magic Mix Mouth Freshener</h3>
+            <p class="product-weight">115 g</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹86</span>
+                <span class="mrp-price">₹120</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-img-box">
+              <img
+                src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/da/cms-assets/cms/product/b417aadf-8504-4db2-9560-469a80461509.png?bg_token=color.background.quaternary"
+                alt="Trident Spearmint Sugar Free Gum"
+                class="product-img"
+              />
+            </div>
+            <div class="eta-badge">
+              <svg class="eta-icon" viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="8" cy="8.5" r="5.5" />
+                <path d="M8 5.5v3.2l2 1.2" stroke-linecap="round" />
+                <path d="M6.5 1.8h3" stroke-linecap="round" />
+              </svg>
+              <span>9 MINS</span>
+            </div>
+            <h3 class="product-title">Trident Spearmint Sugar Free Gum</h3>
+            <p class="product-weight">14 pcs</p>
+            <div class="product-footer">
+              <div class="price-box">
+                <span class="current-price">₹160</span>
+              </div>
+              <button type="button" class="add-btn">ADD</button>
+            </div>
+          </article>
+        </div>
+
+        <button type="button" class="carousel-next-btn" aria-label="Next products">
+          <svg viewBox="0 0 24 24" class="next-arrow-icon" aria-hidden="true">
+            <path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER SECTION ==================== -->
+  <footer class="blinkit-footer">
+    <div class="footer-container">
+      <!-- Top Row: Useful Links & Categories (Side by Side) -->
+      <div class="footer-top">
+        <!-- Left: Useful Links (3 Columns) -->
+        <div class="footer-useful-links">
+          <h3 class="footer-heading">Useful Links</h3>
+          <div class="useful-links-grid">
+            <ul class="footer-link-list">
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+
+            <ul class="footer-link-list">
+              <li><a href="#">Partner</a></li>
+              <li><a href="#">Franchise</a></li>
+              <li><a href="#">Seller</a></li>
+              <li><a href="#">Warehouse</a></li>
+              <li><a href="#">Deliver</a></li>
+              <li><a href="#">Resources</a></li>
+            </ul>
+
+            <ul class="footer-link-list">
+              <li><a href="#">Recipes</a></li>
+              <li><a href="#">Bistro</a></li>
+              <li><a href="#">District</a></li>
+              <li><a href="#">Blinkit Ambulance</a></li>
+              <li><a href="#">Feeding India</a></li>
+              <li><a href="#">Eternal SBI Credit Card</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: Categories (3 Columns) -->
+        <div class="footer-categories">
+          <div class="footer-categories-header">
+            <h3 class="footer-heading">Categories</h3>
+            <a href="#" class="footer-see-all">see all</a>
+          </div>
+
+          <div class="categories-grid">
+            <ul class="footer-link-list">
+              <li><a href="#">Bath &amp; Body</a></li>
+              <li><a href="#">Beauty &amp; Cosmetics</a></li>
+              <li><a href="#">Health &amp; Pharma</a></li>
+              <li><a href="#">Atta, Rice &amp; Dal</a></li>
+              <li><a href="#">Bakery &amp; Biscuits</a></li>
+              <li><a href="#">Kitchenware &amp; Appliances</a></li>
+              <li><a href="#">Drinks &amp; Juices</a></li>
+              <li><a href="#">Sauces &amp; Spreads</a></li>
+              <li><a href="#">Home &amp; Lifestyle</a></li>
+              <li><a href="#">Stationery &amp; Games</a></li>
+              <li><a href="#">Rakhi Gifts</a></li>
+            </ul>
+
+            <ul class="footer-link-list">
+              <li><a href="#">Hair</a></li>
+              <li><a href="#">Feminine Hygiene</a></li>
+              <li><a href="#">Sexual Wellness</a></li>
+              <li><a href="#">Oil, Ghee &amp; Masala</a></li>
+              <li><a href="#">Dry Fruits &amp; Cereals</a></li>
+              <li><a href="#">Chips &amp; Namkeen</a></li>
+              <li><a href="#">Tea, Coffee &amp; Milk Drinks</a></li>
+              <li><a href="#">Paan Corner</a></li>
+              <li><a href="#">Cleaners &amp; Repellents</a></li>
+              <li><a href="#">Print Store</a></li>
+            </ul>
+
+            <ul class="footer-link-list">
+              <li><a href="#">Skin &amp; Face</a></li>
+              <li><a href="#">Baby Care</a></li>
+              <li><a href="#">Vegetables &amp; Fruits</a></li>
+              <li><a href="#">Dairy, Bread &amp; Eggs</a></li>
+              <li><a href="#">Chicken, Meat &amp; Fish</a></li>
+              <li><a href="#">Sweets &amp; Chocolates</a></li>
+              <li><a href="#">Instant Food</a></li>
+              <li><a href="#">Ice Creams &amp; More</a></li>
+              <li><a href="#">Electronics</a></li>
+              <li><a href="#">E-Gift Cards</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Middle Bar: Copyright, Download App & Social Icons -->
+      <div class="footer-middle-bar">
+        <p class="footer-copyright">© Blink Commerce Private Limited, 2016-2026</p>
+
+        <div class="footer-app-download">
+          <span class="download-label">Download App</span>
+
+          <!-- App Store Badge -->
+          <a href="#" class="store-badge" aria-label="Download on the App Store">
+            <svg class="store-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#ffffff"
+                d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.07-.463 1.58-1.518 3.12-.945 1.34-1.94 2.71-3.43 2.71-1.517 0-1.9-.88-3.63-.88-1.698 0-2.302.91-3.67.91-1.377 0-2.332-1.26-3.428-2.8-1.287-1.82-2.323-4.63-2.323-7.28 0-4.28 2.797-6.55 5.552-6.55 1.448 0 2.675.95 3.6.95.865 0 2.222-1.01 3.902-1.01.613 0 2.886.06 4.374 2.19-.13.09-2.383 1.37-2.383 4.19 0 3.26 2.854 4.42 2.955 4.45z"
+              />
+            </svg>
+            <span class="store-text">
+              <span class="store-sub">Download on the</span>
+              <span class="store-main">App Store</span>
+            </span>
+          </a>
+
+          <!-- Google Play Badge -->
+          <a href="#" class="store-badge" aria-label="Get it on Google Play">
+            <svg class="store-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#4285F4" d="M3.61 1.814L13.793 12 3.61 22.186a1.75 1.75 0 0 1-.46-1.19V3.004c0-.458.17-.876.46-1.19z" />
+              <path fill="#34A853" d="M17.24 8.553L13.793 12 3.61 1.814a1.65 1.65 0 0 1 1.673-.087l11.957 6.826z" />
+              <path fill="#FBBC05" d="M20.69 10.523c1.05.6 1.05 2.354 0 2.954l-3.45 1.97L13.793 12l3.447-3.447 3.45 1.97z" />
+              <path fill="#EA4335" d="M13.793 12l3.447 3.447L5.283 22.273a1.65 1.65 0 0 1-1.673-.087L13.793 12z" />
+            </svg>
+            <span class="store-text">
+              <span class="store-sub store-sub--upper">GET IT ON</span>
+              <span class="store-main">Google Play</span>
+            </span>
+          </a>
+        </div>
+
+        <!-- 5 Social Media Icons -->
+        <div class="footer-socials">
+          <a href="#" class="social-circle" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#ffffff"
+                d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="social-circle" aria-label="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#ffffff"
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="social-circle" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="#ffffff" stroke-width="2" />
+              <circle cx="12" cy="12" r="4" fill="none" stroke="#ffffff" stroke-width="2" />
+              <circle cx="17.3" cy="6.7" r="1.2" fill="#ffffff" />
+            </svg>
+          </a>
+
+          <a href="#" class="social-circle" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#ffffff"
+                d="M6.94 8.5H3.56V19.5H6.94V8.5ZM5.25 3.5C4.14 3.5 3.25 4.39 3.25 5.5C3.25 6.6 4.14 7.5 5.25 7.5C6.35 7.5 7.25 6.6 7.25 5.5C7.25 4.39 6.35 3.5 5.25 3.5ZM20.44 13.02C20.44 9.88 18.76 8.22 16.16 8.22C14.37 8.22 13.48 9.21 13.02 9.93V8.5H9.65C9.7 9.48 9.65 19.5 9.65 19.5H13.02V13.36C13.02 13.02 13.05 12.69 13.15 12.45C13.42 11.78 14.03 11.09 15.07 11.09C16.41 11.09 17.06 12.11 17.06 13.6V19.5H20.44V13.02Z"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="social-circle" aria-label="Threads">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#ffffff"
+                d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32l-1.757-1.182c.98-1.454 2.513-2.259 4.478-2.259h.044c3.194.02 5.097 1.973 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom Disclaimer -->
+      <p class="footer-disclaimer">
+        “Blinkit” is owned &amp; managed by "Blink Commerce Private Limited" and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
